@@ -11,7 +11,6 @@ const Map = ({center, zoom})=> {
                 >
                     <LocationMarker lat={center.lat} lng={center.lng} />
                 </GoogleMapReact>
-
         </div>
     )
 }
