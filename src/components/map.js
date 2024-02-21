@@ -5,8 +5,8 @@ const Map = ({center, zoom})=> {
         <div className='map'>
                 <GoogleMapReact
                     bootstrapURLKeys={{key: 'AIzaSyBRGWpKHBuO5Tpf8Kr3GwfgGAhm82H3JWM'}}
-                    defaultCenter = { center }
-                    defaultZoom = { zoom }
+                    defaultCenter = { defaultProps.center }
+                    defaultZoom = { defaultProps.zoom }
                 >
                 </GoogleMapReact>
 
