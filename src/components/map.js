@@ -1,12 +1,12 @@
-import GoogleMapReact from 'google-map-react';
+import GoogleMapReact from 'google-map-react'
 
 const Map = ({center, zoom})=> {
     return(
         <div className='map'>
                 <GoogleMapReact
                     bootstrapURLKeys={{key: 'AIzaSyBRGWpKHBuO5Tpf8Kr3GwfgGAhm82H3JWM'}}
-                    defaultCenter = { defaultProps.center }
-                    defaultZoom = { defaultProps.zoom }
+                    defaultCenter = { center }
+                    defaultZoom = { zoom }
                 >
                 </GoogleMapReact>
 
