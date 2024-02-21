@@ -20,7 +20,7 @@ function App() {
   }, [])
   return (
     <div>
-      { !loading ? <Map eventData={evenData} /> : <h1><Loader /></h1>}
+      { !loading ? <Map eventData={eventData} /> : <h1><Loader /></h1>}
     </div>
   );
 }
