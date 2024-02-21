@@ -1,4 +1,4 @@
-import GoogleMapReact from 'google-map-react'
+import GoogleMapReact from 'google-map-react';
 
 const Map = ({center, zoom})=> {
     return(
