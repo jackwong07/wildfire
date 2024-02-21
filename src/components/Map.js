@@ -9,7 +9,7 @@ const Map = ({center, zoom})=> {
                     defaultCenter = { center }
                     defaultZoom = { zoom }
                 >
-                    <LocationMarker lat={42.3265} lng={-122.8756} />
+                    <LocationMarker lat={center.lat} lng={center.lng} />
                 </GoogleMapReact>
 
         </div>
