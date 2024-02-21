@@ -17,8 +17,9 @@ function App() {
     }
 
     fetchEvents()
+
     console.log(eventData);
-  }), [])
+  }, [])
   return (
     <div>
       <Map />
